@@ -1,0 +1,54 @@
+.home-title {
+    font-size: 4rem;
+    margin: 6rem 0;
+}
+
+.home-py-xl {
+    padding: 7rem;
+}
+
+.home-card {
+    padding: 4rem;
+    border-radius: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.btn-join-us {
+    width: 10rem;
+}
+
+.title {
+   font-size: 2.5rem; 
+}
+
+.row .tech-card {
+    max-width: 12rem;
+    max-height: 12rem;
+}
+
+@media only screen and (max-width: 575px) {
+    .home-title {
+        margin: 4rem 0;
+    }
+
+    .btn-join-us {
+        margin-bottom: 2rem;
+    }
+}
+
+.home-subtitle {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.home-team {
+    padding: 4rem 0;
+}
+
+.line-sm {
+    line-height: 5rem;
+}
+
+.stack-img {
+    width: 100%!important;
+}

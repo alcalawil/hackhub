@@ -1,0 +1,215 @@
+/* CUSTOMS COLORS */
+.color-primary {
+  color: #b5dd45;
+}
+
+.color-secondary {
+color: #213430;
+}
+
+.bgnd-primary {
+background-color: #b4cf69;
+}
+
+.bgnd-secondary {
+background-color: #64713e;
+}
+
+/* customs text */
+.text-small {
+  font-size: 10px;
+}
+
+
+/* CUSTOM STYLES */
+/* POINTER */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* CHAT */
+.chat-card {
+  min-height: 500px;
+  border-radius: 2.5rem;
+}
+
+.chat-bgnd {
+  background-color: #f0f0f0;
+  height: 400px!important;
+  border-radius: 1.8rem;
+}
+
+.show-sms {
+  height: 90%;
+}
+
+/* ATTENDEES */
+.grid-attendees {
+  max-width: 210px;
+}
+
+.card-attendees {
+  border-radius: 1.2rem;
+  cursor: pointer;
+  transition: 650ms;
+}
+.card-attendees:hover {
+  background-color: #f0f0f0;
+  transition: 250ms;
+}
+.card-attendees:active:focus {
+  background-color: #dadada;
+  transition: 250ms;
+}
+
+.container-attendees {
+  border-radius: 2.5rem;
+}
+
+@media only screen and (max-width: 575px) {
+  .container-attendees {
+    padding-left: 1.2rem!important;
+    padding-right: 1.2rem!important;
+  }
+
+  .events-title {
+    margin: 4rem 0;
+  }
+}
+
+/* EVENTS */
+.events-title {
+  font-size: 3.5rem;
+  margin: 6rem 0;
+}
+
+/* EVENT */
+.container-event {
+  border-radius: 1.2rem;
+  background-color: rgb(33, 33, 33);
+  color: #fff;
+}
+
+.card-event-details {
+  padding: 1.5rem!important;
+}
+
+/* PROFILES */
+.profile-pic {
+  width: 45px!important;
+  height: 45px!important;
+  cursor: pointer;
+  transition: 450ms;
+}
+.profile-pic:hover {
+  opacity: 70%;
+  transition: 450ms;
+}
+
+.profile-pic-big {
+  width: 190px!important;
+  height: 190px!important;
+}
+
+.profile-title {
+  font-size: 4rem;
+}
+
+@media only screen and (max-width: 575px) {  
+  .profile-title {
+    font-size: 2rem;
+  }
+
+  .profile-section {
+    padding: 2rem!important;
+  }
+}
+
+.stats-profile {
+  border: 2px solid #000;
+  border-radius: 1.2rem;
+}
+
+
+/* CUSTOM BUTTONS */
+.btn-primary {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #b5dd45;
+  border-color: #b5dd45;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #64792b;
+  border-color: #64792b;
+  color: #fff;
+}
+.btn-primary:focus{
+  box-shadow: 0 0 0 4px #d0dbb1;
+  background-color: #4d5c23;
+  border-color: #4d5c23;
+  color: #fff;
+}
+.btn-primary:active {
+  background-color: #4d5c23;
+  border-color: #4d5c23;
+  box-shadow: 0 0 0 4px #d0dbb1;
+  color: #fff;
+}
+.btn-primary:active:focus {
+  box-shadow: 0 0 0 4px #d0dbb1;
+}
+.btn-primary:disabled {
+  background-color: #b5dd45;
+  border: none;
+}
+.btn-primary:disabled:hover {
+  background-color: #b5dd45;
+  border: none;
+}
+.btn-primary:disabled:active {
+  box-shadow: none;
+}
+
+
+.btn-outline-primary {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-color: #b5dd45;
+  background-color: #FFF;
+  color: #b5dd45;
+}
+.btn-outline-primary:hover {
+  background-color: #b5dd45;
+  border-color: #b5dd45;
+  color: #fff;
+}
+.btn-outline-primary:focus {
+  box-shadow: 0 0 0 4px #d0dbb1;
+  color: #b5dd45;
+}
+.btn-outline-primary:active {
+  background-color: #4d5c23;
+  border-color: #4d5c23;
+}
+.btn-outline-primary:active:focus {
+  box-shadow: 0 0 0 4px #d0dbb1;
+}
+.btn-outline-primary:focus:hover {
+  color: #fff;
+}
+.btn-outline-primary:disabled {
+  border-color: #b5dd45;
+  background-color: #FFF;
+  color: #b5dd45;
+}
+.btn-outline-primary:disabled:hover {
+  border-color: #b5dd45;
+  background-color: #FFF;
+  color: #b5dd45;
+}
+.btn-outline-primary:disabled:active {
+  box-shadow: none;
+}
